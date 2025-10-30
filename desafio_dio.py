@@ -16,7 +16,7 @@ def deposito(saldo, valor, extrato, /):
     """
     Realiza um depósito na conta.
     Argumentos posicionais apenas (/)
-    """
+    """ 
     if valor > 0:
         saldo += valor
         extrato += f"Depósito:\tR$ {valor:.2f}\n"
